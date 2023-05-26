@@ -1,5 +1,5 @@
 .theme-dark {
-    background-color: #163121;
+    background-color: #0D2715;
     color: #C4FDC4;
 }
 
@@ -7,16 +7,29 @@
     color: #537E3A;
 }
 
+.theme-light-accent-1 {
+    color: #5adbff;
+}
+
+.theme-light-accent-2 {
+    color: #fff;
+}
+
+
+.theme-light-accent-3 {
+    color: #FF85D4;
+}
+
 .theme-text-light {
     color: #C4FDC4 !important;
 }
 
 .theme-text-medium {
-    color: #537E3A !important;
+    color: #264E24 !important;
 }
 
 .theme-text-dark {
-    color: #163121 !important;
+    color: #0D2715 !important;
 }
 
 .myrow {
@@ -27,4 +40,8 @@
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.navbar-toggler{
+    border: 1px solid #C4FDC4 !important;
 }
