@@ -15,7 +15,6 @@
     color: #fff;
 }
 
-
 .theme-light-accent-3 {
     color: #FF85D4;
 }
@@ -44,4 +43,15 @@
 
 .navbar-toggler{
     border: 1px solid #C4FDC4 !important;
+}
+
+.my-image-container {
+    /* overflow: hidden;  */
+    /* display: flex;  */
+    /* justify-content: center; 
+    align-items: center */
+}
+
+.my-image-fluid {
+    object-fit: cover; object-position: center; height: 100%; width:100%
 }
