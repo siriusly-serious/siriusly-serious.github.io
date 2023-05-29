@@ -1,6 +1,7 @@
 .theme-dark {
     background-color: #0D2715;
     color: #C4FDC4;
+    border-color: #537E3A !important;
 }
 
 .theme-medium {
@@ -54,4 +55,13 @@
 
 .my-image-fluid {
     object-fit: cover; object-position: center; height: 100%; width:100%
+}
+
+.feature-image-container {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.feature-text {
+    padding-bottom: 1rem;
 }
