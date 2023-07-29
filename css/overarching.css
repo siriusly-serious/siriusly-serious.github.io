@@ -1,3 +1,39 @@
+:root {
+    --mydarkgreen: #0D2715;
+    --mymediumgreen: #537E3A;
+    --mylightgreen: #C4FDC4;
+    --mylotuspink: #FF85D4;
+    --myskyblue: #5adbff;
+    --bs-primary: #537E3A;
+}
+
+.btn-custom-green {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--mylightgreen);
+    --bs-btn-bg: var(--mydarkgreen);
+    --bs-btn-border-color: var(--mymediumgreen);
+    --bs-btn-hover-color: var(--mymediumgreen);
+    --bs-btn-hover-bg: #{shade-color(var(--mymediumgreen), 10%)};
+    --bs-btn-hover-border-color: #{shade-color(var(--mymediumgreen), 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+.btn-primary:hover {
+    background-color: #537E3A !important;
+}
+
+a {
+    color: var(--mylightgreen);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--mylightgreen);
+}
+
 .theme-dark {
     background-color: #0D2715;
     color: #C4FDC4;
