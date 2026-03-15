@@ -2,8 +2,31 @@ body {
   background-color: #EEFCE6; /* Use a color name, hex code, RGB, or HSL value */
 }
 
+h1 {
+
+}
+
+h2 {
+  display: inline;
+}
+
 p {
   font-family: "Outfit", sans-serif;
+}
+
+.non-bold-header {
+  display: inline;
+}
+
+.instrumentation {
+  font-family: "Outfit", sans-serif;
+  color:gray;
+  font-size: smaller;
+  display: inline;
+}
+
+.subtext {
+  font-size: smaller;
 }
 
 body {
@@ -11,5 +34,6 @@ body {
 }
 
 ul {
+  line-height: 3;
   list-style-type: none; /* Removes bullets for unordered lists */
 }
